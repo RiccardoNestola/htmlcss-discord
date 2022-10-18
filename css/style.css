@@ -4,30 +4,85 @@
     box-sizing: border-box;
 }
 
-header{
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.login {
+    background-color: #ffffff;
+    border-radius: 100px;  
+    border-width: 0;  
+    cursor: pointer;
+    margin: 0;
+    padding: 0.6rem 0.9rem ;
+}
+
+.text_dark {
+    color:#23272A;
+    font-weight: 500;
+}
+
+.text_light {
+    color:#ffffff;
+    font-weight: 500;
+}
+
+.button_light {
+    background-color: #ffffff;
+    border-radius: 100px;    
+    cursor: pointer;
+    margin: 0;
+    padding: 1rem 2rem;
+    border-width: 0;
+    font-size: 1rem;
+
+  
+}
+
+.button_dark {
+    background-color: #23272A;
+    border-radius: 100px;    
+    cursor: pointer;
+    margin: 0;
+    padding: 1rem 2rem;
+    border-width: 0;
+    font-size: 1rem;
+
+  }
+.arrow{
+    margin: 5px;
+    font-weight: 500;
+}
+
+
+
+
+header {
     margin: 0 auto;
     width:100%;
     
 }
 
-button{
+button {
     padding: .6rem;
     margin: 1rem;
 }
 
-.container{
+.container {
     background: url(../img/jumbo.png) no-repeat center center; background-size:cover;
     height: 500px;
 }
 
-nav.flex{
+nav.flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -43,7 +98,7 @@ a {
     color: white;
 }
 
-div.intro{
+div.intro {
     text-align: center;
     padding-top: 4rem;
     width: 50%;
@@ -55,7 +110,7 @@ div.intro{
     padding: 1rem 0;
 }
 
-div.section{
+div.section {
     width:100%;
     height: 25rem;
     border: 1px solid red;
@@ -63,7 +118,7 @@ div.section{
 }
 
 
-div.image{
+div.image {
     width: 60%;
     height: 80%;
     background-color: turquoise;
@@ -71,7 +126,7 @@ div.image{
 }
 
 
-div.text{
+div.text {
     width: 40%;
     background-color: rgb(6, 6, 6);
     height: 80%;
@@ -103,12 +158,12 @@ div.bg {
 }
 
 
-.flex_footer{
+.flex_footer {
     display: flex;
 }
 
 
-footer{
+footer {
     margin-top: 3rem;
     width:100%;
     height: 600px;
@@ -117,14 +172,14 @@ footer{
 }
 
 
-footer p,ul li{
+footer p,ul li {
     color:#ffffff;
 }
 
 
 
 
-footer h3{
+footer h3 {
     color:#7289DA;
 }
 
@@ -152,7 +207,7 @@ footer h3{
     
 }
 
-hr{
+hr {
     width: 100%;
     border: 0.5px solid #7289DA;
 }
