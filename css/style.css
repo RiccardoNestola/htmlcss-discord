@@ -109,6 +109,15 @@ nav.flex {
     padding: 1rem;
 }
 
+.flex-reverse {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: row-reverse;
+}
+
+
+
 ul li {
     display: inline-block;
     margin: 0.5rem;
@@ -126,10 +135,9 @@ div.intro {
     margin: 0 auto;
 }
 
-/* .intro > h1 , p {
-    color: white;
-    padding: 1rem 0;
-} */
+.bg_grey {
+    background-color: #d2d2d2;
+}
 
 
 .content {
