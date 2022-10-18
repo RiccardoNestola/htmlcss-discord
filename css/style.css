@@ -21,12 +21,12 @@ body {
 
 .text_dark {
     color:#23272A;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 .text_light {
     color:#ffffff;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 .button_light {
@@ -56,8 +56,29 @@ body {
     font-weight: 500;
 }
 
+.margin_left{
+    margin-left: 0.5rem;
+}
 
+.margin_right{
+    margin-right: 0.5rem;
+}
 
+.padding_small{
+    padding: 1.5rem 0;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 3rem;
+    /* padding: 1rem; */
+}
+
+h3{
+    font-weight: 600;
+    font-size: 2rem;
+    /* padding: 1rem; */
+}
 
 header {
     margin: 0 auto;
@@ -95,7 +116,7 @@ ul li {
 
 a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 
 div.intro {
@@ -105,31 +126,44 @@ div.intro {
     margin: 0 auto;
 }
 
-.intro > h1 , p {
+/* .intro > h1 , p {
     color: white;
     padding: 1rem 0;
+} */
+
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 6rem;
 }
 
-div.section {
+
+
+
+/* div.section {
     width:100%;
     height: 25rem;
-    border: 1px solid red;
-    padding: 0 12rem;
-}
+    /* border: 1px solid red; */
+    /* padding: 0 12rem; } */
+
+
 
 
 div.image {
-    width: 60%;
-    height: 80%;
-    background-color: turquoise;
+    width: 65%;
+    /* height: 80%; */
+    /* background-color: turquoise; */
 
 }
 
 
 div.text {
-    width: 40%;
-    background-color: rgb(6, 6, 6);
-    height: 80%;
+    width: 35%;
+    padding: 0 4rem
+    /* background-color: rgb(6, 6, 6); */
+    /* height: 80%; */
 
 }
 
